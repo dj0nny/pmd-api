@@ -9,10 +9,10 @@ module.exports = {
       password: process.env.PG_PSW,
     },
     migrations: {
-      directory: './db/migrations',
+      directory: './src/db/migrations',
     },
     seeds: {
-      directory: './db/seeds',
+      directory: './src/db/seeds',
     },
   },
 };
